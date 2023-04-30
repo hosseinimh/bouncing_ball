@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "vazir";
+  src: url(./fonts/Vazir.eot);
+  src: url(./fonts/Vazir.woff) format("woff"),
+    url(./fonts/Vazir.ttf) format("truetype");
+}
+html {
+  font-family: "vazir", sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-family: "vazir", sans-serif;
+}
+canvas {
+  background: #eee;
+}
